@@ -4,7 +4,7 @@ var myChart = new Chart(ctx, {
     data: {
         labels: ["Implant", "Intrauterine Device", "Male Sterilization", "Female Sterilization", "Injectable", "Pill", "Patch", "Ring", "Diaphragm", "Male Condom", "Female Condom", "Withdrawal", "Sponge", "Fertility Awareness Based Methods", "Spermicide"],
         datasets: [{
-            label: '# of incidents',
+            label: '% of pregnancies',
             data: [0.05,0.8,0.15,0.5,6,9,9,9,12,18,21,22,24,24,28],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
@@ -66,7 +66,7 @@ var myChart = new Chart(ctx, {
     data: {
         labels: ["1991", "2007", "2011", "2012", "2013"],
         datasets: [{
-            label: '# of incidents',
+            label: '# of pregnanciesper 100 women',
             data: [61.8,41.5,31.3,29.4,26.5],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
